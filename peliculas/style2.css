@@ -1,0 +1,75 @@
+html{
+    background-color: #d5d9d5;
+}
+
+.Cartel-Individual{
+    position: absolute;
+    height: auto;
+    width: 20%;
+    left: 9%;
+    top: 10%;
+    border-radius: 20px;
+}
+
+.siteFooter3{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+}
+
+
+.Inyeccion{
+    height: 200px;
+}
+.Contenedor-padre{
+    position: absolute;
+    top: 22%;
+}
+
+.Descripcion-contenedor{
+    position: relative;
+    color: #171717;
+    top: 9%;
+    width: 39%;
+    left: 32%;
+}
+
+.Titulo2{
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 1px;
+}
+
+.Titulo-contenedor{
+    position: relative;
+    border-bottom: 1px;
+}
+
+.Titulo-contenedor::after{
+    position: absolute;
+    content: '';
+    top: 10%;
+    width: 99%;
+    height: 3px;
+    background-color:#191918;
+    bottom: 290px;
+
+}
+
+.botones-horario{
+    border: 2px solid #191918;
+    color: #191918;
+    background-color: #FBFBF8;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 70px;
+    margin: 5px;
+    margin-bottom: 8px;
+}
+.botones-horario:hover{
+    background-color: #191918;
+    color: #FBFBF8;
+}
+
+
+
