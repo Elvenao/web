@@ -1,0 +1,637 @@
+:root{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+header{
+    display: flex;
+}
+
+body{
+    margin: 0;  
+    padding: 0;
+    color: white; /* Esto es opcional, si quieres que el texto sea blanco */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#Icono{
+    width: 80px;
+    height: auto;
+    margin-right: 30px;
+}
+
+#header-contenedor{
+    background-color: #010019;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav-padre{
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-a{
+    color: #FBFBF8;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-a:hover{
+    color:#9a9a97;
+    padding-bottom: 2px;
+    border-bottom: 1px solid#9a9a97 ;
+}
+
+
+.buscador {
+	position: absolute;
+	left: 75%;
+	top: 7%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+}
+
+#InputB {
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 0px;
+	padding: 0 20px;
+	color: rgb(44, 44, 44);
+	border-radius: 50px;
+	font-size: 17px;
+	border: 1px solid #010019;
+	transition: all .7s ease;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #7e7f83;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn i {
+	font-size: 25px;
+	color: #FBFBF8;
+	line-height: 80px;
+	transition: all .7s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.buscador:hover #InputB {
+	width: 350px;
+}
+
+.buscador:hover i{
+	transform: rotate(-360deg);
+}
+
+.btn:hover{
+	background:#8b8c91;
+}
+
+.fondo-carrusel{
+    width: 100%;
+    
+    background: radial-gradient(circle, transparent, transparent 70%, rgba(0, 0, 0, 0.6));
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carrusel{
+    position: relative;
+    width: auto;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.carrusela{
+    display:contents;
+}
+
+.carteles-carrusel{
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    height: 60%;
+    width: auto;
+}
+
+.flechaDerecha{
+    position: absolute;
+    top: 42%;
+    right: 2%;
+    height: 10%;
+}
+
+.flechaIzquierda{
+    position:absolute;
+    top: 42%;
+    left: 2%;
+    height: 10%;
+}
+
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+.itemCarrouselArrows a{
+    cursor: pointer;
+}
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+
+
+[data-content]{
+    display: none;
+}
+
+.active[data-content]{
+    display: flex;
+}
+
+.link{
+    cursor: pointer;
+}
+
+#boton1, #boton2, #boton3, #boton4{
+    background-color: #8b8c91;
+    border-color: #8b8c91;
+    border: none;
+}
+
+.botones-carrusel{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    border: none;
+}
+
+.boton-carrusel{
+    width: 40px;
+    height: 10px;
+    border-radius: 200px;
+    margin-right: 20px;
+    border: none;
+}
+
+.boton-carrusel:hover{
+    background-color: #b7b8be;
+    border: none;
+}
+
+.Peliculas{
+    
+    position: relative;
+    width: auto;
+    height: 600px;
+    margin-bottom: 0;
+    margin: 0;
+    
+}
+
+#Pelicula{
+    position: relative;
+    top: 10px;
+    left: 15%;
+    font-size: 31px;
+    font-weight: 600;
+    
+}
+
+.Menu-Peliculas{
+    position: relative;
+}
+
+.Menu-Peliculas::after{
+    position: absolute;
+    content: '';
+    width: 86.5%;
+    height: 0.5px;
+    background-color:#FBFBF8;
+    bottom: -20px;
+}
+
+
+
+
+.Pelicula-Titulo{
+    background-color: #010019;
+    height: 70px;
+}
+
+
+
+#Temporadas{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+
+}
+
+[data2-contenta]{
+    margin-right: 20px;
+    font-weight: 700;
+    transition: color 0.5s ease;
+    color: #8b8c91;
+    transition: color 0.5s ease;
+}
+
+[data2-contenta]:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #FBFBF8;
+    color:#FBFBF8;
+    transition: color 0.5s ease;
+}
+
+[data2-content]{
+    display: none;
+}
+
+.active[data2-content]{
+    display: flex;
+}
+
+
+.active[data2-contenta]{
+    border-bottom: 1px solid #FBFBF8;
+    color: #FBFBF8;
+}
+
+.Imagen-Peliculas-Fondo{
+    width: 100%;
+    height: 600px;  
+    position: absolute; 
+}
+
+[data3-content]{
+    display: none;
+}
+
+.active[data3-content]{
+    display: flex;
+    width: 100%;
+}
+
+[data4-content]{
+    display: none;
+}
+
+.active[data4-content]{
+    display: flex;
+    width: 100%;
+}
+
+.flechaDerechaPelicula{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    height: 10%;
+}
+
+.flechaIzquierdaPelicula{
+    position:absolute;
+    top: 45%;
+    left: 2%;
+    height: 10%;
+}
+
+.Carteles-Peliculas1{
+    position: absolute;
+    height: 50%;
+    top: 29%;
+    left: 9%;
+    width: auto;
+    border-radius: 30px;
+}
+
+.Carteles-Peliculas2{
+    position: absolute;
+    height: 50%;
+    top: 29%;
+    left: 26%;
+    width: auto;
+    border-radius: 30px;
+}
+
+.Carteles-Peliculas3{
+    position: absolute;
+    height: 70%;
+    top: 21%;
+    left: 42%;
+    width: auto;
+    border-radius: 30px;
+}
+
+.Carteles-Peliculas4{
+    position: absolute;
+    height: 50%;
+    top: 29%;
+    left: 63%;
+    width: auto;
+    border-radius: 30px;
+}
+
+.Carteles-Peliculas5{
+    position: absolute;
+    height: 50%;
+    top: 29%;
+    left: 80%;
+    width: auto;
+    border-radius: 30px;
+}
+
+.siteFooter{
+    position: absolute;
+    bottom: -114%;
+    width: 100%;
+}
+
+.RedesSociales-Footer{
+    background-color: #010019;
+    height:10%;
+    padding-left: 43%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.logos{
+    width: 3%;
+    margin-right: 35px;
+}
+
+.Copyright-Footer{
+    background-color: #192540;
+    border-top: 2px solid #8b8c91;
+    
+    padding-bottom: 7%;
+}
+
+
+.Copyright-logo{
+    position: absolute;
+    width: 84px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    left: 50%;
+}
+
+#Copy{
+    position: absolute;
+    padding-top: 1.8%;
+    left: 20%;
+    color: #cfd0d4;
+    font-size:large
+}
+
+.Links-Footer{
+    background-color: #192540;
+    height: 350px;
+    padding-left: 8%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+.Pie-de-Pagina{
+    
+    margin-right:10px;
+    width: 250px;
+    height: auto;
+}
+
+.Titulo{
+    color: #FBFBF8;
+    font-size: 22px;
+}
+
+li{
+    list-style: none;
+}
+
+.Links{
+    text-decoration: none;
+    font-size: 17px;
+    color: #b7b8be;
+    font-weight: 400;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.Links a{
+    color:#b7b8be ;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.Links a:hover{
+    color: #5177d0;
+}
+
+.BotonImagen1{
+    position: absolute;
+    background-color: #B7142C;
+    color: #FBFBF8;
+    border:#B7142C;
+    padding: 1%;
+    font-weight: 700;
+    left: 11.4%;
+    border-radius: 30px;
+    top: 75%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.BotonImagen1:hover{
+    background-color: rgb(168, 15, 38);
+}
+
+.BotonImagen2{
+    position: absolute;
+    background-color: #B7142C;
+    color: #FBFBF8;
+    border:#B7142C;
+    padding: 1%;
+    font-weight: 700;
+    left:28.1%;
+    border-radius: 30px;
+    top: 75%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.BotonImagen2:hover{
+    background-color: rgb(168, 15, 38);
+}
+
+.BotonImagen3{
+    position: absolute;
+    background-color: #E51937;
+    color: #FBFBF8;
+    border:#E51937 ;
+    padding: 1%;
+    font-weight: 700;
+    left: 46.1%;
+    border-radius: 30px;
+    top: 87%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.BotonImagen3:hover{
+    background-color: #B7142C
+}
+
+.BotonImagen4{
+    position: absolute;
+    background-color: #B7142C;
+    color: #FBFBF8;
+    border:#B7142C;
+    padding: 1%;
+    font-weight: 700;
+    left:65.3%;
+    border-radius: 30px;
+    top: 75%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.BotonImagen4:hover{
+    background-color: rgb(168, 15, 38);
+}
+
+.BotonImagen5{
+    position: absolute;
+    background-color: #B7142C;
+    color: #FBFBF8;
+    border:#B7142C;
+    padding: 1%;
+    font-weight: 700;
+    left:82.3%;
+    border-radius: 30px;
+    top: 75%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.BotonImagen5:hover{
+    background-color: rgb(168, 15, 38);
+}
+
+.active[data-contenta]{
+    color:#9a9a97;
+    padding-bottom: 2px;
+    border-bottom: 1px solid#9a9a97 ;
+    transition: .5 ease;
+}
+
+[data-content2]{
+    display: none;
+}
+
+.active[data-content2]{
+    display: flex;
+    position: absolute;
+    background-color: #010019;
+    height: 360px;
+    width: 100%;
+}
+
+.Palomitas1{
+    position: absolute;
+    width: auto;
+    height: 70%;
+    border-radius: 30px;
+    top: 14%;
+    left: 19%;
+}
+
+.Palomitas2{
+    position: absolute;
+    width: auto;
+    height: 70%;
+    border-radius: 30px;
+    top: 14%;
+    left: 31%;
+}
+
+#especial{
+    cursor: pointer;
+}
+
+#Contenedor-Peliculas{
+    position: absolute;
+}

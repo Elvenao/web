@@ -1,0 +1,68 @@
+html{
+    background-color: #d5d9d5;
+}
+
+.Contenedor-Peliculas{
+
+    background-color: #FBFBF8;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.Relleno{
+
+    height: 100px;
+    background-color: #d5d9d5;
+
+}
+
+.Contenedor-padre{
+    position: absolute;
+    top: 22%;
+}
+
+.siteFooterPelicula{
+    position: absolute;
+    bottom: -273%;
+    width: 100%;
+}
+
+.pelicula-titulo{
+    color: #a0a0a0;
+}
+
+.pelicula-precio{
+    font-weight: 600;
+    font-size: large;
+}
+
+.pelicula-imagen{
+    max-width: 300px;
+    height: 50%;
+    margin-left: 130px;
+    border-radius: 30px;
+}
+
+.pelicula-detalles{
+    color: #a0a0a0;
+    position: relative;
+    margin-left: 130px;
+    max-width: 170px;
+}
+
+
+.contenedor img {
+    width: 300px;
+    height: auto;
+}
+
+.contenedor p {
+    align-items: right;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#Contenedor-Peliculas{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
