@@ -65,7 +65,9 @@ targets4.forEach(target4 => {
 });
 
 const nava = document.querySelector('[data-contenta]');
+const nava2 = document.querySelector('[data-contenta2]');
 const menu = document.querySelector('[data-content2]');
+const menu2 = document.querySelector('[data-content3]');
 
 nava.addEventListener('click', () => {
     if(nava.classList.contains('active')){
@@ -79,6 +81,21 @@ nava.addEventListener('click', () => {
         menu.classList.add('active')
     }
 })
+
+nava2.addEventListener('click', () => {
+    if(nava2.classList.contains('active')){
+        nava2.classList.remove('active')
+    }else{
+        nava2.classList.add('active')
+    }
+    if(menu2.classList.contains('active')){
+        menu2.classList.remove('active')
+    }else{
+        menu2.classList.add('active')
+    }
+})
+
+
 
 
 const enlaces = document.querySelectorAll('[data2-contenta]');

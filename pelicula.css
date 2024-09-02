@@ -2,28 +2,15 @@ html{
     background-color: #d5d9d5;
 }
 
-.Contenedor-Peliculas{
-
-    background-color: #FBFBF8;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-
-.Relleno{
-
-    height: 100px;
-    background-color: #d5d9d5;
-
-}
-
 .Contenedor-padre{
     position: absolute;
     top: 22%;
+    
 }
 
 .siteFooterPelicula{
     position: absolute;
-    bottom: -273%;
+    bottom: -140vw;
     width: 100%;
 }
 
@@ -37,7 +24,7 @@ html{
 }
 
 .pelicula-imagen{
-    max-width: 300px;
+    max-width: 16.4vw;
     height: 50%;
     margin-left: 130px;
     border-radius: 30px;
@@ -46,19 +33,19 @@ html{
 .pelicula-detalles{
     color: #a0a0a0;
     position: relative;
-    margin-left: 130px;
-    max-width: 170px;
+    margin-left: 7vw;
+
 }
 
 
 .contenedor img {
-    width: 300px;
+    width: 20vw;
     height: auto;
 }
 
 .contenedor p {
     align-items: right;
-    font-size: 32px;
+    font-size: 9vw;
     font-weight: 600;
 }
 

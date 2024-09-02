@@ -12,16 +12,16 @@ header{
 body{
     margin: 0;  
     padding: 0;
-    color: white; /* Esto es opcional, si quieres que el texto sea blanco */
+    color: white; 
     width: 100%;
     height: 100%;
     box-sizing: border-box;
 }
 
 #Icono{
-    width: 80px;
+    width: 7vw;
     height: auto;
-    margin-right: 30px;
+    margin-right: 1vw;
 }
 
 #header-contenedor{
@@ -34,15 +34,18 @@ a{
 }
 
 #nav-padre{
-    padding-top: 30px;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    display: flex;
+    padding-top: 2.8%;
+    left: 9vw;
+    font-size: 1.2vw;
+    
 }
 
 .nav-a{
     color: #FBFBF8;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-weight: bold;
     transition: color 0.3s ease, border-bottom 0.3s ease;
 }
@@ -56,11 +59,11 @@ a{
 
 .buscador {
 	position: absolute;
-	left: 75%;
-	top: 7%;
-	transform: translate(-50%,-50%);
+	left: 66vw;
+	top: 3.5vw;
 	padding: 10px;
-	font-size: 30px;
+    font-size: 1.5vw;
+
 }
 
 #InputB {
@@ -235,16 +238,16 @@ a{
 
 .botones-carrusel{
     position: absolute;
-    bottom: 10%;
-    left: 45%;
+    bottom: 1.6vw;
+    left: 42.09vw;
     border: none;
 }
 
 .boton-carrusel{
-    width: 40px;
-    height: 10px;
-    border-radius: 200px;
-    margin-right: 20px;
+    width: 2.6vw;
+    height: 0.7vw;
+    border-radius: 3vw;
+    margin-right: 1.2vw;
     border: none;
 }
 
@@ -254,20 +257,15 @@ a{
 }
 
 .Peliculas{
-    
     position: relative;
     width: auto;
-    height: 600px;
-    margin-bottom: 0;
-    margin: 0;
-    
 }
 
 #Pelicula{
     position: relative;
-    top: 10px;
-    left: 15%;
-    font-size: 31px;
+    top: 0.8vw;
+    left: 14.5vw;
+    font-size: 1.8vw;
     font-weight: 600;
     
 }
@@ -279,10 +277,10 @@ a{
 .Menu-Peliculas::after{
     position: absolute;
     content: '';
-    width: 86.5%;
-    height: 0.5px;
+    width: 81vw;
+    height: 0.1vw;
     background-color:#FBFBF8;
-    bottom: -20px;
+    bottom: -1.4vw;
 }
 
 
@@ -290,21 +288,22 @@ a{
 
 .Pelicula-Titulo{
     background-color: #010019;
-    height: 70px;
+    height: 4.5vw;
 }
 
 
 
 #Temporadas{
     position: absolute;
-    top: 45%;
-    right: 15%;
+    top: 1vw;
+    right: 14vw;
 
 }
 
 [data2-contenta]{
-    margin-right: 20px;
+    margin-right: 2vw;
     font-weight: 700;
+    font-size: 1.2vw;
     transition: color 0.5s ease;
     color: #8b8c91;
     transition: color 0.5s ease;
@@ -312,7 +311,7 @@ a{
 
 [data2-contenta]:hover{
     cursor: pointer;
-    border-bottom: 1px solid #FBFBF8;
+    border-bottom: 0.1vw solid #FBFBF8;
     color:#FBFBF8;
     transition: color 0.5s ease;
 }
@@ -333,7 +332,7 @@ a{
 
 .Imagen-Peliculas-Fondo{
     width: 100%;
-    height: 600px;  
+    height: 50vw;  
     position: absolute; 
 }
 
@@ -357,125 +356,122 @@ a{
 
 .flechaDerechaPelicula{
     position: absolute;
-    top: 45%;
-    right: 2%;
-    height: 10%;
+    top: 21vw;
+    right: 2vw;
+    height: 3vw;
 }
 
 .flechaIzquierdaPelicula{
     position:absolute;
-    top: 45%;
-    left: 2%;
-    height: 10%;
+    top: 21vw;
+    left: 2vw;
+    height: 3vw;
 }
 
 .Carteles-Peliculas1{
     position: absolute;
-    height: 50%;
-    top: 29%;
-    left: 9%;
+    height: 18vw;
+    top: 13.5vw;
+    left: 9vw;
     width: auto;
-    border-radius: 30px;
+    border-radius: 3vw;
 }
 
 .Carteles-Peliculas2{
     position: absolute;
-    height: 50%;
-    top: 29%;
-    left: 26%;
+    height: 18vw;
+    top: 13.5vw;
+    left: 26vw;
     width: auto;
-    border-radius: 30px;
+    border-radius: 3vw;
 }
 
 .Carteles-Peliculas3{
     position: absolute;
-    height: 70%;
-    top: 21%;
-    left: 42%;
+    height: 25vw;
+    top: 10vw;
+    left: 42vw;
     width: auto;
-    border-radius: 30px;
+    border-radius: 3vw;
 }
 
 .Carteles-Peliculas4{
     position: absolute;
-    height: 50%;
-    top: 29%;
-    left: 63%;
+    height: 18vw;
+    top: 13.5vw;
+    left: 62.3vw;
     width: auto;
-    border-radius: 30px;
+    border-radius: 3vw;
 }
 
 .Carteles-Peliculas5{
     position: absolute;
-    height: 50%;
-    top: 29%;
-    left: 80%;
+    height: 18vw;
+    top: 13.5vw;
+    left: 79vw;
     width: auto;
-    border-radius: 30px;
+    border-radius: 3vw;
 }
 
 .siteFooter{
+    top: 80vw;
     position: absolute;
-    bottom: -114%;
     width: 100%;
 }
 
 .RedesSociales-Footer{
     background-color: #010019;
-    height:10%;
-    padding-left: 43%;
-    padding-top: 3%;
+    height:2.4vw;
+    padding-left: 38vw;
+    padding-top: 2.6vw;
     padding-bottom: 3%;
 }
 .logos{
-    width: 3%;
-    margin-right: 35px;
+    width: 2.5vw;
+    margin-right: 5vw;
 }
 
 .Copyright-Footer{
     background-color: #192540;
     border-top: 2px solid #8b8c91;
-    
-    padding-bottom: 7%;
+    padding-bottom: 9%;
 }
 
 
 .Copyright-logo{
     position: absolute;
-    width: 84px;
+    width: 7%;
     padding-top: 1%;
     padding-bottom: 1%;
-    left: 50%;
+    left: 47%;
 }
 
 #Copy{
     position: absolute;
     padding-top: 1.8%;
-    left: 20%;
+    left: 18%;
     color: #cfd0d4;
-    font-size:large
+    font-size:2vw;
 }
 
 .Links-Footer{
     background-color: #192540;
-    height: 350px;
+    height: 25vw;
     padding-left: 8%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
 
-
-
 .Pie-de-Pagina{
     
     margin-right:10px;
-    width: 250px;
+    width: 20vw;
     height: auto;
 }
 
 .Titulo{
     color: #FBFBF8;
-    font-size: 22px;
+    font-size: 1.6vw;
 }
 
 li{
@@ -484,7 +480,7 @@ li{
 
 .Links{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2vw;
     color: #b7b8be;
     font-weight: 400;
     margin-top: 10px;
@@ -509,10 +505,10 @@ li{
     border:#B7142C;
     padding: 1%;
     font-weight: 700;
-    left: 11.4%;
-    border-radius: 30px;
-    top: 75%;
-    font-size: 100%;
+    left: 11.2vw;
+    border-radius: 2vw;
+    top: 30.3vw;
+    font-size: 1.1vw;
     cursor: pointer;
 }
 
@@ -527,10 +523,10 @@ li{
     border:#B7142C;
     padding: 1%;
     font-weight: 700;
-    left:28.1%;
-    border-radius: 30px;
-    top: 75%;
-    font-size: 100%;
+    left:28.3vw;
+    border-radius:2vw;
+    top: 30.3vw;
+    font-size:  1.1vw;
     cursor: pointer;
 }
 
@@ -545,10 +541,10 @@ li{
     border:#E51937 ;
     padding: 1%;
     font-weight: 700;
-    left: 46.1%;
-    border-radius: 30px;
-    top: 87%;
-    font-size: 100%;
+    left: 46.1vw;
+    border-radius: 2vw;
+    top: 33.3vw;
+    font-size:  1.1vw;
     cursor: pointer;
 }
 
@@ -563,10 +559,10 @@ li{
     border:#B7142C;
     padding: 1%;
     font-weight: 700;
-    left:65.3%;
-    border-radius: 30px;
-    top: 75%;
-    font-size: 100%;
+    left:64.4vw;
+    border-radius: 2vw;
+    top: 30.3vw;
+    font-size: 1.1vw;
     cursor: pointer;
 }
 
@@ -581,10 +577,10 @@ li{
     border:#B7142C;
     padding: 1%;
     font-weight: 700;
-    left:82.3%;
-    border-radius: 30px;
-    top: 75%;
-    font-size: 100%;
+    left:81.1vw;
+    border-radius: 2vw;
+    top: 30.3vw;
+    font-size: 1.1vw;
     cursor: pointer;
 }
 
@@ -607,26 +603,26 @@ li{
     display: flex;
     position: absolute;
     background-color: #010019;
-    height: 360px;
+    height: 18vw;
     width: 100%;
 }
 
 .Palomitas1{
     position: absolute;
     width: auto;
-    height: 70%;
-    border-radius: 30px;
-    top: 14%;
-    left: 19%;
+    height: 15vw;
+    border-radius: 2vw;
+    top: 0.5vw;
+    left: 10vw;
 }
 
 .Palomitas2{
     position: absolute;
     width: auto;
-    height: 70%;
-    border-radius: 30px;
-    top: 14%;
-    left: 31%;
+    height: 15vw;
+    border-radius: 2vw;
+    top: 0.5vw;
+    left: 26vw;
 }
 
 #especial{
