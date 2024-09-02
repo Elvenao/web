@@ -18,10 +18,10 @@ html{
 
 }
 .buscador {
-	position: absolute;
-	left: 66vw;
-	top: 3.5vw;
-	padding: 10px;
+    position: absolute;
+    left: 66vw;
+    top: 3.5vw;
+    padding: 10px;
     font-size: 1.5vw;
 }
 
